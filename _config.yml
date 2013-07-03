@@ -1,0 +1,4 @@
+exclude: [CNAME, README.md, Rakefile]
+permalink: none
+markdown: redcarpet
+company: KISSmetrics
