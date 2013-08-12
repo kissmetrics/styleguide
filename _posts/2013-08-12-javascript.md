@@ -1,14 +1,9 @@
 ---
 layout: styleguide
-title: "JavaScript"
+title: JavaScript Style Guide
 ---
 
 *Initial version borrowed from [AirBnb's](https://github.com/airbnb/javascript). It can evolve as needed for our purposes.*
-
-# Airbnb JavaScript Style Guide() {
-
-*A mostly reasonable approach to JavaScript*
-
 
 ## <a name='TOC'>Table of Contents</a>
 
