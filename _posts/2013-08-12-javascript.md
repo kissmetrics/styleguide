@@ -368,13 +368,18 @@ title: JavaScript Style Guide
     var superPower = new SuperPower();
     ```
 
-  - Use one `var` declaration for multiple variables and declare each variable on a newline.
+  - Use one `var` declaration for multiple variables and declare each variable on a newline. Indent following lines to line up with the first variable declaration.
 
     ```javascript
     // bad
     var items = getItems();
     var goSportsTeam = true;
     var dragonball = 'z';
+
+    // bad
+    var items = getItems();
+      goSportsTeam = true;
+      dragonball = 'z';
 
     // good
     var items = getItems(),
