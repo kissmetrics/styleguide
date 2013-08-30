@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<div class="index-nav">
+<div class="index-nav index-home">
   {% for post in site.posts %}
-    <h3 style="text-transform: uppercase;"><a style="text-decoration: none;" href="{{ post.url }}">&nbsp;&#8250; {{ post.title }}</a></h3>
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
   {% endfor %}
 </div>

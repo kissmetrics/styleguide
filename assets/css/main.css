@@ -23,8 +23,8 @@ header h1 {
    color: #fff;
    font-size: 2.5em;
    margin: 0;
-   padding: 20px 20px 20px 20px;
-   font-family: 'Merriweather', serif;
+   padding: 20px 20px 20px 0px;
+   font-family: Raleway, Helvetica, arial, sans-serif;
    font-weight: 700;
 }
 
@@ -322,6 +322,15 @@ sup {
 }
 h1 a.title-nav {
    text-decoration: none;
+}
+div.index-home h3 {
+   text-transform: uppercase;
+}
+div.index-home a {
+   text-decoration: none;
+}
+div.index-home a:before {
+   content: '\203A\00a0';
 }
 * {
    -webkit-print-color-adjust: exact;
