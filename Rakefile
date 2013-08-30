@@ -22,14 +22,14 @@ task :guide do
 		post.puts "title: \"#{title.gsub(/-/,' ')}\""
 		post.puts "---"
 		post.puts ""
-		post.puts "## Table of Contents"
+		post.puts "## <a id='TOC'>Table of Contents</a>"
 		default_headings.each do | heading |
 			post.puts "* [#{heading.capitalize}](##{heading})"
 		end
 		post.puts ""
 		default_headings.each do | heading |
-			post.puts "## <a id='#{heading}'></a>#{heading.capitalize}"
-			post.puts "* Something they should do" 
+			post.puts "## <a id='#{heading}'>#{heading.capitalize}</a>"
+			post.puts "* Something they should do"
 			post.puts "* Something else they should do"
 			post.puts ""
 			post.puts "```"
@@ -42,6 +42,8 @@ task :guide do
 			post.puts "code should show something"
 			post.puts "```"
 			post.puts ""
+      post.puts "**[[⬆]](#TOC)**"
+      post.puts ""
 		end
   end
 end
