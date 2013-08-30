@@ -14,7 +14,7 @@ task :guide do
   filename = File.join(CONFIG['posts'], "#{Time.now.strftime('%Y-%m-%d')}-#{slug}.md")
   puts "Creating new styleguide: #{filename}"
 
-  default_headings = %w{coding-style documentation syntax naming classes exceptions collections strings regular-expressions}
+  default_headings = %w{documentation syntax naming classes exceptions collections strings regular-expressions}
 
   open(filename, 'w') do |post|
 		post.puts "---"
@@ -42,7 +42,7 @@ task :guide do
 			post.puts "code should show something"
 			post.puts "```"
 			post.puts ""
-      post.puts "**[[⬆]](#TOC)**"
+      post.puts "**[[^]](#TOC)**"
       post.puts ""
 		end
   end
