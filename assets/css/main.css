@@ -2,15 +2,38 @@ body {
    font-family: Raleway, Helvetica, arial, sans-serif;
    font-size: 14px;
    line-height: 1.6;
-   padding-top: 10px;
    padding-bottom: 10px;
    background-color: white;
-   padding: 30px; }
+   margin: 0 0 0 0;
+}
 
 body > *:first-child {
    margin-top: 0 !important; }
 body > *:last-child {
    margin-bottom: 0 !important; }
+
+/* #Header Styles
+================================================== */
+
+header {
+   background: #006985;
+}
+
+header h1 {
+   color: #fff;
+   font-size: 2.5em;
+   margin: 0;
+   padding: 20px 20px 20px 20px;
+   font-family: 'Merriweather', serif;
+   font-weight: 700;
+}
+
+header a {
+   color: #fff;
+}
+
+/*
+================================================== */
 
 a {
    color: #4183C4; }
@@ -266,7 +289,7 @@ pre code {
 
 .highlight pre code {
    white-space: pre-wrap;
-   }   
+   }
 
 pre {
    background-color: #f8f8f8;
@@ -293,7 +316,7 @@ h1 a.title-nav {
    -webkit-print-color-adjust: exact;
 }
 @media screen and (min-width: 914px) {
-   body {
+   .container {
       width: 854px;
       margin:0 auto;
    }
