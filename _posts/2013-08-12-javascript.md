@@ -18,6 +18,7 @@ title: JavaScript Style Guide
   1. [Conditional Expressions & Equality](#conditionals)
   1. [Blocks](#blocks)
   1. [Comments](#comments)
+  1. [Documenation](#documentation)
   1. [Whitespace](#whitespace)
   1. [Commas](#commas)
   1. [Semicolons](#semicolons)
@@ -730,6 +731,32 @@ title: JavaScript Style Guide
 
     **[[⬆]](#TOC)**
 
+## <a name='documentation'>Documentation</a>
+
+[Follow the YUI Docs](http://yui.github.io/yuidoc/syntax/index.html)
+
+  - Along with documenting what the method does, try to include a reason as to
+    why it is there.
+
+  - Always document the parameters and return values
+
+    ```javascript
+    /**
+     * This method does something that is useful. This is
+     * to demonstrate the necessities of documentation for
+     * Javascript methods.
+     *
+     * @param {String} foo a description will reside here
+     *   if it gets too long, simply take it to the next
+     *   line and indent.
+     * @param {String} bar
+     * @param {String} qux
+     * @return {String} All parameters concated together
+     */
+    dosomething: function (foo, bar, qux) {
+      return foo + bar + qux;
+    }
+    ```
 
 ## <a name='whitespace'>Whitespace</a>
 
