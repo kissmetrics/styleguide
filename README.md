@@ -1,4 +1,4 @@
-KISSMetrics Style Guides
+KISSmetrics Style Guides
 ==========
 
 ## Running Locally
