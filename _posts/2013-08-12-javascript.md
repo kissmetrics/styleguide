@@ -753,7 +753,7 @@ title: JavaScript Style Guide
      * @param {String} qux
      * @return {String} All parameters concated together
      */
-    doSomething: function (foo, bar, qux) {
+    doSomething: function(foo, bar, qux) {
       return foo + bar + qux;
     }
     ```
